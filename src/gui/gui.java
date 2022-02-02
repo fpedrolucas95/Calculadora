@@ -274,7 +274,7 @@ public class gui extends JFrame{
 		});
 
 		btRecp.setMargin(new Insets(1,1,1,1));
-		btRecp.setFont(new Font("Segoe UI",Font.PLAIN,32));
+		btRecp.setFont(new Font("Segoe UI",Font.PLAIN,24));
 		btRecp.setLocation(236, 197);
 		btRecp.setSize(48, 48);
 		paine.add(btRecp);
