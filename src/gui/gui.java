@@ -274,7 +274,7 @@ public class gui extends JFrame{
 		});
 
 		btRecp.setMargin(new Insets(1,1,1,1));
-		btRecp.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btRecp.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btRecp.setLocation(236, 197);
 		btRecp.setSize(48, 48);
 		paine.add(btRecp);
@@ -290,7 +290,7 @@ public class gui extends JFrame{
 
 		//QUARTA LINHA
 		btUm.setMargin(new Insets(1,1,1,1));
-		btUm.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btUm.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btUm.setLocation(16, 252);
 		btUm.setSize(48, 48);
 		paine.add(btUm);
@@ -308,7 +308,7 @@ public class gui extends JFrame{
 		});
 
 		btDois.setMargin(new Insets(1,1,1,1));
-		btDois.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btDois.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btDois.setLocation(71, 252);
 		btDois.setSize(48, 48);
 		paine.add(btDois);
@@ -326,7 +326,7 @@ public class gui extends JFrame{
 		});
 
 		btTres.setMargin(new Insets(1,1,1,1));
-		btTres.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btTres.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btTres.setLocation(126, 252);
 		btTres.setSize(48, 48);
 		paine.add(btTres);
@@ -344,7 +344,7 @@ public class gui extends JFrame{
 		});
 
 		btSub.setMargin(new Insets(1,1,1,1));
-		btSub.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btSub.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btSub.setLocation(181, 252);
 		btSub.setSize(48, 48);
 		paine.add(btSub);
@@ -360,7 +360,7 @@ public class gui extends JFrame{
 		);
 
 		btIgual.setMargin(new Insets(1,1,1,1));
-		btIgual.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btIgual.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btIgual.setLocation(236, 252);
 		btIgual.setSize(48, 103);
 		paine.add(btIgual);
@@ -393,7 +393,7 @@ public class gui extends JFrame{
 
 		//QUINTA LINHA
 		btZero.setMargin(new Insets(1,1,1,1));
-		btZero.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btZero.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btZero.setLocation(16, 307);
 		btZero.setSize(103, 48);
 		paine.add(btZero);
@@ -411,7 +411,7 @@ public class gui extends JFrame{
 		});
 
 		btVirg.setMargin(new Insets(1,1,1,1));
-		btVirg.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btVirg.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btVirg.setLocation(126, 307);
 		btVirg.setSize(48, 48);
 		paine.add(btVirg);
@@ -431,7 +431,7 @@ public class gui extends JFrame{
 
 
 		btSoma.setMargin(new Insets(1,1,1,1));
-		btSoma.setFont(new Font("Segoe UI",Font.PLAIN,24));
+		btSoma.setFont(new Font("Segoe UI",Font.PLAIN,32));
 		btSoma.setLocation(181, 307);
 		btSoma.setSize(48, 48);
 		paine.add(btSoma);
