@@ -1,21 +1,37 @@
 package gui;
 
+import java.awt.BorderLayout;
 import java.awt.ComponentOrientation;
 import java.awt.Container;
 import java.awt.Font;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import javax.swing.Box;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JTextField;
+import javax.swing.Popup;
+import javax.swing.PopupFactory;
 import javax.swing.WindowConstants;
 
 import code.code;
+import gui.AboutBox;
+
 
 public class gui extends JFrame{
-
-    JTextField saidaCalc 			= new JTextField("0");
+	
+	JMenuBar menuSuperior 				= new JMenuBar();
+	JMenu ajuda 					= new JMenu("Ajuda");
+	
+    	JMenuItem sobre					= new JMenuItem("Sobre a Calculadora");
+	
+   	JTextField saidaCalc 				= new JTextField("0");
 
 	JButton btDel					= new JButton("←");
 	JButton btCE					= new JButton("CE");
@@ -52,9 +68,23 @@ public class gui extends JFrame{
 
 	public gui() {
 		super("Calculadora");
-
+		
 		Container paine = this.getContentPane();
 		paine.setLayout(null);
+
+		menuSuperior.setFont(new Font("Arial", Font.PLAIN,11));
+		menuSuperior.add(ajuda);
+		super.setJMenuBar(menuSuperior);
+		
+		ajuda.add(sobre);
+		sobre.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+		        new AboutBox();
+		    }			
+			
+		});
 		
 		//EXIBIÇÃO DOS DADOS
 		saidaCalc.setFont(new Font("Segoe UI", Font.PLAIN, 32));
@@ -446,7 +476,7 @@ public class gui extends JFrame{
 			}
 		);
 
-		this.setSize(317, 416);
+		this.setSize(317, 433);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		this.setResizable(false);
