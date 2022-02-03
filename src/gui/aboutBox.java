@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class aboutBox {
 	JFrame frame = new JFrame();
-	JLabel label = new JLabel("Test");
+	JLabel label = new JLabel("Sobre a calculadora");
 
 	aboutBox() {
 		JFrame window = new JFrame("Sobre a calculadora"); 
