@@ -8,6 +8,7 @@ public class aboutBox {
 
 	aboutBox() {
 		JFrame window = new JFrame("Sobre a calculadora"); 
+		window.setIconImage(new ImageIcon(getClass().getResource("calculadora.png")).getImage());
 		window.add(new JLabel("<html><h1 style=\"color: #4485b8; text-align: center;\">Calculadora Simples em Java</h1>\r\n"
 				+ "<p style=\"text-align: center;\"><strong style=\"color: #000;\">Vers&atilde;o:</strong> 1.0.1 - 03/02/2022 - 16:00</p>\r\n"
 				+ "<p style=\"text-align: center;\"><strong>Commit:</strong> <a class=\"text-small text-mono Link--secondary\" href=\"https://github.com/fpedrolucas95/Calculadora/commit/979f8c7395b428fd3b72bc2300887374e8793cf4\" data-pjax=\"\">979f8c7</a></p>\r\n"
